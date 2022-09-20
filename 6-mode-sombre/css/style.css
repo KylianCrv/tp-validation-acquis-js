@@ -1,0 +1,38 @@
+/* Global style */
+
+/* div {
+    /* border: 1px solid black; */
+/*    background-color: coral;
+} */
+
+/* Top Bar Style */
+
+.container-top {
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    height: 100px;
+    width: 50%;
+}
+
+.box1 {
+    text-align: center;
+}
+
+.box2 {
+   text-align: center; 
+}
+
+.toggle {
+    height: 30px;
+    width: 70px;
+    margin-top: 30px;
+}
+
+/* Content Style */
+.darkMode{
+background-color: black;
+color: azure;
+}
