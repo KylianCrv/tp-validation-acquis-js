@@ -37,9 +37,9 @@ console.log(articles)
 appendData(articles)
 
 function appendData(articles) {
-    for (var i = 0; i < articles.length; i++) {
+    for (let i = 0; i < articles.length; i++) {
 
-        var div = document.createElement("div");
+        let div = document.createElement("div");
         div.innerHTML = '<h2>' + articles[i].title+'</h2><br>'+
         '<h6>'+articles[i].length+'min</h6>'+
         '<p>'+articles[i].snippet+'</p>'
